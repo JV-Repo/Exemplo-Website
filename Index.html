@@ -14,87 +14,135 @@
             color: white;
             background-color: rgb(201, 76, 76);
             font-size: 14px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            margin: 22px;
         }
 
-        td {
-            border: 5px solid rgb(201, 76, 76);
-            background-clip: padding-box;
-        }
 
         div {
             display: inline-block;
             inline-size: auto;
+            vertical-align: top;
+            margin-left: 6px;
+            margin-right: 6px;
+
+        }
+
+        div#tema {
+            border-right-width: 1.5px;
+            border-right-style: solid;
+            border-right-color: maroon;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        div#aluno1 {
+            border-right-width: 1.5px;
+            border-right-style: solid;
+            border-right-color: maroon;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+
+        div#aluno2 {
+            border-right-width: 1.5px;
+            border-right-style: solid;
+            border-right-color: maroon;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+
+        div#aluno3 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        div#mae {
+            width: 100%;
+            border-top-width: 1.5px;
+            border-top-style: solid;
+            border-top-color: maroon;
+
+            border-bottom-width: 1.5px;
+            border-bottom-style: solid;
+            border-bottom-color: maroon;
         }
 
         table {
             table-layout: fixed;
+
         }
 
         table td {
-            border: 1px solid #000;
+            border: 0px;
+            background-color: rgb(243, 66, 53);
         }
     </style>
 </head>
 
 <body>
-    <h2>Desenvolvimento Web 1</h2>
+    <br>
+    <h1>Desenvolvimento Web 1</h1>
     <hr color="maroon">
     <center>
-        <table style="background-color: rgb(243, 66, 53);">
+        <table width="28%" cellspacing="10px" cellpadding="7px">
             <tr>
-                <td>
+                <td align="center">
                     Index
                 </td>
-                <td>
+                <td align="center">
                     Aluno 1
                 </td>
-                <td>
+                <td align="center">
                     Aluno 2
                 </td>
-                <td>
+                <td align="center">
                     Aluno 3
                 </td>
-                <td>
+                <td align="center">
                     Contato
                 </td>
             </tr>
         </table>
     </center>
-    <hr color="maroon">
-
-    <div style="width: 24%;">
-        Tema: <br> HTML e CSS<br><br>
-        Entrega: <br> 14/04/2020 <br><br>
-        Maximo de alunos: <br> 3 <br><br>
-        Valor: <br> 2,0 pontos<br><br>
 
 
+    <div id="mae">
 
+        <div style="width: 23%;" id="tema">
+            &nbsp; Tema: <br> &nbsp; HTML e CSS<br><br><br>
+            &nbsp; Entrega: <br> &nbsp; 14/04/2020 <br><br><br>
+            &nbsp; Maximo de alunos: <br> &nbsp; 3 <br><br><br>
+            &nbsp; Valor: <br> &nbsp; 2,0 pontos<br><br>
+        </div>
+
+
+        <div style="width: 23%;" id="aluno1">
+            &nbsp; Aluno: <br> &nbsp; Leonardo Xavier Boeing <br><br><br>
+            &nbsp; Matricula: <br> &nbsp; 1605216<br><br><br>
+            &nbsp; Email: <br> &nbsp; leoxboeing@hotmail.com <br><br><br>
+        </div>
+
+
+        <div style="width: 23%;" id="aluno2">
+            &nbsp; Aluno: <br> &nbsp; João Vitor Cunha Assumpção <br><br><br>
+            &nbsp; Matricula: <br> &nbsp; 2002108<br><br><br>
+            &nbsp; Email: <br> &nbsp; joao.assumpo@gmail.com <br><br><br>
+        </div>
+
+
+        <div style="width: 23%;" id="aluno3">
+            &nbsp; Aluno: <br> &nbsp; Vitor Spricigo Mesquita <br><br><br>
+            &nbsp; Matricula: <br> &nbsp; 2003063<br><br><br>
+            &nbsp; Email: <br> &nbsp; vitormesquita190902@gmail.com <br><br><br>
+        </div>
 
     </div>
 
 
-    <div style="width: 24%;">
-        Aluno: <br> Leonardo Xavier Boeing <br><br>
-        Matricula: <br> 1605216<br><br>
-        Email: <br> leoxboeing@hotmail.com <br><br>
-    </div>
-
-
-    <div style="width: 24%;">
-        Aluno: <br> João Vitor Cunha Assunpção <br><br>
-        Matricula: <br> 2002108<br><br>
-        Email: <br> joao.assumpo@gmail.com <br><br>
-    </div>
-
-
-    <div style="width: 24%;">
-        Aluno: <br> Vitor Spricigo Mesquita <br><br>
-        Matricula: <br> 2003063<br><br>
-        Email: <br> vitormesquita190902@gmail.com <br><br>
-    </div>
-    <hr color="maroon">
+    <br><br>
     <footer>
         <center>
             &copy; Desenvolvido por Equipe 2
