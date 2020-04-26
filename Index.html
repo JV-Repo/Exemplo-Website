@@ -70,43 +70,38 @@
             border-bottom-color: maroon;
         }
 
-        table {
-            table-layout: fixed;
-
-        }
-
-        table td {
+        button {
+            width: 70px;
             border: 0px;
             background-color: rgb(243, 66, 53);
+            border-radius: 2px;
+            padding: 8px;
+            color: white;
+        }
+
+        button:hover {
+            background-color: rgb(167, 10, 10);
+        }
+
+        button:focus {
+
+            outline-style: none;
+
+
         }
     </style>
 </head>
 
 <body>
     <br>
-    <h1>Desenvolvimento Web 1</h1>
+    <h1>Desenvolvimento Web I </h1>
     <hr color="maroon">
     <center>
-        <table width="28%" cellspacing="10px" cellpadding="7px">
-            <tr>
-                <td align="center">
-                    <a href="index.html" style="color: white;">Index</a>
-                </td>
-                <td align="center">
-                    <a href="COLOCAR O NOME DO ARQUIVO DO QUE O BOTÃO VAI REDIRECIONAR, O ARQUIVO DEVE ESTAR NA MESMA PASTA"
-                        style="color: white;"> Aluno 1</a>
-                </td>
-                <td align="center">
-                    Aluno 2
-                </td>
-                <td align="center">
-                    Aluno 3
-                </td>
-                <td align="center">
-                    Contato
-                </td>
-            </tr>
-        </table>
+        <p><button onclick="window.location.href='Index.html'">Index</button>&nbsp;
+            <button onclick="window.location.href='aluno1.html'">Aluno 1</button>&nbsp;
+            <button onclick="window.location.href='aluno2.html'">Aluno 2</button>&nbsp;
+            <button onclick="window.location.href='aluno3.html'">Aluno 3</button>&nbsp;
+            <button onclick="window.location.href='contato.html'">Contato</button></p>
     </center>
 
 
