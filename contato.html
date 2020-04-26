@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluno 1</title>
+    <style>
+        a:hover {
+            background-color: rgb(167, 10, 10);
+        }
+
+        body {
+            color: white;
+            background-color: white;
+            font-size: 14px;
+            font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            margin: 22px;
+        }
+
+        div {
+            display: inline-block;
+            inline-size: auto;
+            vertical-align: top;
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+
+        div#cabecalho {
+            background-color: rgb(201, 76, 76);
+            width: 100%;
+            height: 80px;
+        }
+
+        div#mae {
+            width: 100%;
+            border-top-width: 1.5px;
+            border-top-style: solid;
+            border-top-color: maroon;
+
+            border-bottom-width: 1.5px;
+            border-bottom-style: solid;
+            border-bottom-color: maroon;
+
+            color: black;
+        }
+
+        input {
+            width: 27%;
+            padding: 6px;
+            border-radius: 4px;
+            border: 1.5px solid rgb(192, 188, 188);
+            background-color: white;
+            font-size: 14px;
+
+
+        }
+
+        input:hover {
+            border-color: rgb(243, 66, 53);
+        }
+
+        select {
+            width: 28.1%;
+            padding: 5px;
+            border-radius: 4px;
+            border: 1.5px solid rgb(192, 188, 188);
+            background-color: white;
+            font-size: 14px;
+
+        }
+
+        select:hover {
+            border-color: rgb(243, 66, 53);
+        }
+
+        textarea {
+            width: 24.8%;
+            padding: 20px;
+            border-radius: 4px;
+            border: 1.5px solid rgb(192, 188, 188);
+            background-color: white;
+            font-size: 14px;
+        }
+
+        textarea:hover {
+            border-color: rgb(243, 66, 53);
+        }
+
+        label {
+            font-size: 16px;
+        }
+
+        header {
+
+            font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        }
+
+        h1 {
+            margin-left: 27px;
+        }
+
+        input#enviar {
+
+            width: 28.2%;
+            padding: 7.5px;
+            border-radius: 4px;
+            background-color: rgb(243, 66, 53);
+            font-size: 12px;
+            color: white;
+            border: 0px;
+
+        }
+
+        input:focus {
+            outline-style: none;
+
+        }
+
+        select:focus {
+            outline-style: none;
+        }
+
+        textarea:focus {
+            outline-style: none;
+        }
+
+        button {
+            width: 70px;
+            background-color: white;
+            border-radius: 2px;
+            padding: 8px;
+            color: rgb(201, 76, 76);
+            border: 1.5px solid rgb(201, 76, 76);
+        }
+
+        button:hover {
+            background-color: rgb(233, 231, 231);
+        }
+
+        button:focus {
+
+            outline-style: none;
+
+        }
+    </style>
+</head>
+<header>
+    <div id="cabecalho" align="left">
+        <h1 style="color: white;">Desenvolvimento Web I </h1>
+
+    </div>
+</header>
+
+<body>
+
+    <center>
+        <p><button onclick="window.location.href='index.html'">Index</button>&nbsp;
+            <button onclick="window.location.href='aluno1.html'">Aluno 1</button>&nbsp;
+            <button onclick="window.location.href='aluno2.html'">Aluno 2</button>&nbsp;
+            <button onclick="window.location.href='aluno3.html'">Aluno 3</button>&nbsp;
+            <button onclick="window.location.href='contato.html'">Contato</button></p>
+    </center>
+    <div id="mae">
+        <fieldset style="border: 0px;">
+            <form action="contato" method="GET" style="margin-left: 12px;"><br>
+                <legend style="font-size: 29px; color: black;"><b>Formulário de Contato</b></legend><br>
+                <label for="nome"><b>Nome:</b></label><br>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="email"><b>E-mail:</b></label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="telefone"><b>Telefone:</b></label><br>
+                <input type=text id="telefone" name="telefone" maxlength="12"><br><br>
+                <label for="prioridade"><b>Prioridade:</b></label><br>
+                <select id="prioridade">
+                    <option value="baixa">Baixa</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                </select><br><br>
+                <label for="mensagem"><b>Mensagem:</b></label><br>
+                <textarea id="mensagem" maxlength="180"></textarea>
+                <p> <input type="submit" id="enviar" name="enviar"> </p>
+
+            </form>
+        </fieldset>
+
+    </div>
+    <br><br>
+    <footer style="color: black;">
+        <center>
+            &copy; Desenvolvido por Equipe 2 - 2020
+        </center>
+    </footer>
+
+</body>
+
+</html>

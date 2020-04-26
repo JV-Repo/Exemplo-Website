@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluno 1</title>
+    <style>
+        a:hover {
+            background-color: rgb(167, 10, 10);
+        }
+
+        body {
+            color: white;
+            background-color: white;
+            font-size: 14px;
+            font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            margin: 22px;
+        }
+
+        div#mae {
+            width: 100%;
+            border-top-width: 1.5px;
+            border-top-style: solid;
+            border-top-color: maroon;
+
+            border-bottom-width: 1.5px;
+            border-bottom-style: solid;
+            border-bottom-color: maroon;
+
+            color: black;
+        }
+
+        div {
+            display: inline-block;
+            inline-size: auto;
+            vertical-align: top;
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+
+        div#cabecalho {
+            background-color: rgb(201, 76, 76);
+            width: 100%;
+            height: 80px;
+
+        }
+
+        div#info {
+            border-right-width: 1px;
+            border-right-style: solid;
+            border-right-color: maroon;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        div#historico {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        div#em {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        div#graduacao {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        div#graduacao2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 135px;
+        }
+
+        header {
+
+            font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        }
+
+        h1 {
+            margin-left: 27px;
+        }
+
+        button {
+            width: 70px;
+            background-color: white;
+            border-radius: 2px;
+            padding: 8px;
+            color: rgb(201, 76, 76);
+            border: 1.5px solid rgb(201, 76, 76);
+        }
+
+        button:hover {
+            background-color: rgb(233, 231, 231);
+        }
+
+        button:focus {
+
+            outline-style: none;
+
+        }
+    </style>
+</head>
+<header>
+    <div id="cabecalho">
+        <h1 style="color: white;">Desenvolvimento Web I </h1>
+
+    </div>
+</header>
+
+<body>
+
+    <center>
+        <p><button onclick="window.location.href='index.html'">Index</button>&nbsp;
+            <button onclick="window.location.href='aluno1.html'">Aluno 1</button>&nbsp;
+            <button onclick="window.location.href='aluno2.html'">Aluno 2</button>&nbsp;
+            <button onclick="window.location.href='aluno3.html'">Aluno 3</button>&nbsp;
+            <button onclick="window.location.href='contato.html'">Contato</button></p>
+    </center>
+
+    <div id="mae">
+
+        <div style="width: 24%;" id="info">
+
+            <center><img src="imgs/vitor.png"> <br><br>
+
+                &nbsp; <b>Nome:</b> <br> &nbsp; Vitor Spricigo Mesquita <br><br>
+                &nbsp; <b>Nascimento:</b> <br> &nbsp; 19/09/2002 <br><br>
+                &nbsp; <b>Telefone:</b> <br> &nbsp; (41) 99196-1909 <br><br>
+                &nbsp; <b>E-mail:</b> <br> &nbsp; vitormesquita190902@gmail.com <br><br>
+                &nbsp; <b>Estado cívil:</b> <br> &nbsp; Solteiro<br>
+
+            </center>
+        </div>
+
+        <div style="width: 72%;" id="historico">
+            &nbsp; <br>
+            <label style="font-size: 20px; color: black;"><b>Educação</b></label><br>
+            <hr style="border-top: 1px solid rgb(80, 80, 80);">
+
+            <div style="width: 25%;" id="em">
+                <label style="font-size: 15px; color:  rgb(201, 76, 76);"><b>Ensino Médio</b></label> <br><br>
+                <p> <b>Colégio SESI</b></p>
+                <label style="color: rgb(99, 96, 96);">
+                    <p>Regular</p>
+                </label>
+                <label style="font-weight:lighter;">
+                    <p><i>2017 - 2019</i></p>
+                </label>
+            </div>
+
+            <div style="width: 25%;" id="graduacao">
+                <label style="font-size: 15px; color:  rgb(201, 76, 76);"><b>Graduação</b></label> <br><br>
+                <p> <b>Universidade Positivo</b></p>
+                <label style="color: rgb(99, 96, 96);">
+                    <p>Engenharia de Software</p>
+                </label>
+                <label style="font-weight:lighter;">
+                    <p><i>2020 - 2024</i></p>
+                </label>
+            </div>
+            <div style="width: 25%;" id="graduacao2">
+                <label style="font-size: 15px; color:  rgb(201, 76, 76);"><b>Técnico</b></label> <br><br>
+                <p> <b>SENAI - Sistema Fiep</b></p>
+                <label style="color: rgb(99, 96, 96);">
+                    <p>Desenvolvimento de Sistemas</p>
+                </label>
+                <label style="font-weight:lighter;">
+                    <p><i>2020 - 2022</i></p>
+                </label>
+            </div>
+
+
+            <hr style="border-top: 1px solid maroon">
+
+            <label style="font-size: 20px; color: black;"><b>Experiência</b></label><br>
+            <p> <b>ATOM ENGENHERIA ELÉTRICA</b><br>
+                <label style="color: rgb(99, 96, 96);">
+                    Cargo atual: Estagiário Financeiro
+                </label> <br>
+                <label style="font-weight:lighter;">
+                    <i>2018 - até o momento</i>
+                </label><br><br></p>
+
+        </div>
+
+    </div>
+
+    <br><br>
+    <footer style="color: black;">
+        <center>
+            &copy; Desenvolvido por Equipe 2 - 2020
+        </center>
+    </footer>
+
+</body>
+
+</html>
